@@ -12,7 +12,7 @@ cpus = cpus > 2 ? cpus : 2;
 class WPRemoteImagesSource {
   static defaultOptions() {
     return {
-      baseUrl: "https://hub.magnet.co/streetattack",
+      baseUrl: "https://ADD_URL_HERE/",
       restBase: "/wp-json/wp/v2/magnetic_portfolio",
       imageDirectory: "src/assets/images",
       sizeToDownload: "medium_large",
